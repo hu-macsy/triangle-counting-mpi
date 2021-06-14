@@ -51,5 +51,6 @@ Temporary Items
 .apdisk
 
 build
+build/*
 output/*
 slurm-*

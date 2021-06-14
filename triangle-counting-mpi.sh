@@ -6,7 +6,7 @@
 # Number of processes per Node
 #SBATCH --ntasks-per-node=2
 # Number of CPU-cores per task
-#SBATCH --cpus-per-task=2
+#SBATCH --cpus-per-task=1
 # Total number of tasks
 #SBATCH --ntasks=4
 # Set memory allocation per cpu
@@ -15,11 +15,6 @@
 #SBATCH --ntasks-per-core=1
 # Set output folder
 #SBATCH -o ./output/output_%j.out
-
-#export SPARK_HOME=/glusterfs/pool-gfs-dist/spark/spark-3.1.1-bin-hadoop3.2
-
-#VERSION=spark-3.1.1-bin-hadoop3.2
-#DIRECTORY=/glusterfs/pool-gfs-dist/spark
 
 #Credit: https://stackoverflow.com/questions/56962129/how-to-get-original-location-of-script-used-for-slurm-job
 if [ -n $SLURM_JOB_ID ];  then
@@ -35,7 +30,7 @@ REPO_PATH=$(dirname "${SCRIPT_PATH}")
 export PATH=$PATH:/usr/lib64/mpi/gcc/openmpi4/bin
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/lib64/mpi/gcc/openmpi4/lib64
 
-RMAT_SCALE=15
+RMAT_SCALE=18
 
 echo ""
 echo " About to run the mpi job"
