@@ -33,8 +33,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/mpitc.dir/mrg_transitions.c.o"
   "CMakeFiles/mpitc.dir/splittable_mrg.c.o"
   "CMakeFiles/mpitc.dir/utils.c.o"
-  "mpitc.pdb"
   "mpitc"
+  "mpitc.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -1,6 +1,6 @@
-The system is: Linux - 3.10.0-1062.4.3.el7.x86_64 - x86_64
+The system is: Linux - 5.3.18-lp152.78-preempt - x86_64
 Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
-Compiler: /panfs/roc/msisoft/openmpi/el6/4.0.0/gnu-8.2.0.CentOS7/bin/mpicc 
+Compiler: /usr/lib64/mpi/gcc/openmpi4/bin/mpicc 
 Build flags: 
 Id flags:  
 
@@ -10,87 +10,183 @@ The output was:
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
 
-The C compiler identification is GNU, found in "/home/karypisg/tomxx030/distr_tc_cp/graphchallenge/distr_triangle_biggraphs/2DTriangleCounting/build/Linux-x86_64/CMakeFiles/3.10.2/CompilerIdC/a.out"
+The C compiler identification is GNU, found in "/vol/home-vol1/maks/brandtfa/Documents/repos/triangle-counting-mpi/build/Linux-x86_64/CMakeFiles/3.17.0/CompilerIdC/a.out"
 
 Determining if the C compiler works passed with the following output:
-Change Dir: /home/karypisg/tomxx030/distr_tc_cp/graphchallenge/distr_triangle_biggraphs/2DTriangleCounting/build/Linux-x86_64/CMakeFiles/CMakeTmp
+Change Dir: /vol/home-vol1/maks/brandtfa/Documents/repos/triangle-counting-mpi/build/Linux-x86_64/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_b35a3/fast"
-gmake[1]: Entering directory `/panfs/roc/groups/0/karypisg/tomxx030/distr_tc_cp/graphchallenge/distr_triangle_biggraphs/2DTriangleCounting/build/Linux-x86_64/CMakeFiles/CMakeTmp'
-/usr/bin/gmake -f CMakeFiles/cmTC_b35a3.dir/build.make CMakeFiles/cmTC_b35a3.dir/build
-gmake[2]: Entering directory `/panfs/roc/groups/0/karypisg/tomxx030/distr_tc_cp/graphchallenge/distr_triangle_biggraphs/2DTriangleCounting/build/Linux-x86_64/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_b35a3.dir/testCCompiler.c.o
-/panfs/roc/msisoft/openmpi/el6/4.0.0/gnu-8.2.0.CentOS7/bin/mpicc    -o CMakeFiles/cmTC_b35a3.dir/testCCompiler.c.o   -c /home/karypisg/tomxx030/distr_tc_cp/graphchallenge/distr_triangle_biggraphs/2DTriangleCounting/build/Linux-x86_64/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_b35a3
-/panfs/roc/msisoft/cmake/3.10.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b35a3.dir/link.txt --verbose=1
-/panfs/roc/msisoft/openmpi/el6/4.0.0/gnu-8.2.0.CentOS7/bin/mpicc      -rdynamic CMakeFiles/cmTC_b35a3.dir/testCCompiler.c.o  -o cmTC_b35a3 
-gmake[2]: Leaving directory `/panfs/roc/groups/0/karypisg/tomxx030/distr_tc_cp/graphchallenge/distr_triangle_biggraphs/2DTriangleCounting/build/Linux-x86_64/CMakeFiles/CMakeTmp'
-gmake[1]: Leaving directory `/panfs/roc/groups/0/karypisg/tomxx030/distr_tc_cp/graphchallenge/distr_triangle_biggraphs/2DTriangleCounting/build/Linux-x86_64/CMakeFiles/CMakeTmp'
+Run Build Command(s):/usr/bin/gmake cmTC_24bda/fast && gmake[1]: Verzeichnis „/vol/home-vol1/maks/brandtfa/Documents/repos/triangle-counting-mpi/build/Linux-x86_64/CMakeFiles/CMakeTmp“ wird betreten
+/usr/bin/gmake -f CMakeFiles/cmTC_24bda.dir/build.make CMakeFiles/cmTC_24bda.dir/build
+gmake[2]: Verzeichnis „/vol/home-vol1/maks/brandtfa/Documents/repos/triangle-counting-mpi/build/Linux-x86_64/CMakeFiles/CMakeTmp“ wird betreten
+Building C object CMakeFiles/cmTC_24bda.dir/testCCompiler.c.o
+/usr/lib64/mpi/gcc/openmpi4/bin/mpicc    -o CMakeFiles/cmTC_24bda.dir/testCCompiler.c.o   -c /vol/home-vol1/maks/brandtfa/Documents/repos/triangle-counting-mpi/build/Linux-x86_64/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_24bda
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_24bda.dir/link.txt --verbose=1
+/usr/lib64/mpi/gcc/openmpi4/bin/mpicc      -rdynamic CMakeFiles/cmTC_24bda.dir/testCCompiler.c.o  -o cmTC_24bda 
+gmake[2]: Verzeichnis „/vol/home-vol1/maks/brandtfa/Documents/repos/triangle-counting-mpi/build/Linux-x86_64/CMakeFiles/CMakeTmp“ wird verlassen
+gmake[1]: Verzeichnis „/vol/home-vol1/maks/brandtfa/Documents/repos/triangle-counting-mpi/build/Linux-x86_64/CMakeFiles/CMakeTmp“ wird verlassen
+
 
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: /home/karypisg/tomxx030/distr_tc_cp/graphchallenge/distr_triangle_biggraphs/2DTriangleCounting/build/Linux-x86_64/CMakeFiles/CMakeTmp
+Change Dir: /vol/home-vol1/maks/brandtfa/Documents/repos/triangle-counting-mpi/build/Linux-x86_64/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_11cd5/fast"
-gmake[1]: Entering directory `/panfs/roc/groups/0/karypisg/tomxx030/distr_tc_cp/graphchallenge/distr_triangle_biggraphs/2DTriangleCounting/build/Linux-x86_64/CMakeFiles/CMakeTmp'
-/usr/bin/gmake -f CMakeFiles/cmTC_11cd5.dir/build.make CMakeFiles/cmTC_11cd5.dir/build
-gmake[2]: Entering directory `/panfs/roc/groups/0/karypisg/tomxx030/distr_tc_cp/graphchallenge/distr_triangle_biggraphs/2DTriangleCounting/build/Linux-x86_64/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_11cd5.dir/CMakeCCompilerABI.c.o
-/panfs/roc/msisoft/openmpi/el6/4.0.0/gnu-8.2.0.CentOS7/bin/mpicc    -o CMakeFiles/cmTC_11cd5.dir/CMakeCCompilerABI.c.o   -c /panfs/roc/msisoft/cmake/3.10.2/share/cmake-3.10/Modules/CMakeCCompilerABI.c
-Linking C executable cmTC_11cd5
-/panfs/roc/msisoft/cmake/3.10.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_11cd5.dir/link.txt --verbose=1
-/panfs/roc/msisoft/openmpi/el6/4.0.0/gnu-8.2.0.CentOS7/bin/mpicc     -v -rdynamic CMakeFiles/cmTC_11cd5.dir/CMakeCCompilerABI.c.o  -o cmTC_11cd5 
+Run Build Command(s):/usr/bin/gmake cmTC_61179/fast && gmake[1]: Entering directory '/vol/home-vol1/maks/brandtfa/Documents/repos/triangle-counting-mpi/build/Linux-x86_64/CMakeFiles/CMakeTmp'
+/usr/bin/gmake -f CMakeFiles/cmTC_61179.dir/build.make CMakeFiles/cmTC_61179.dir/build
+gmake[2]: Entering directory '/vol/home-vol1/maks/brandtfa/Documents/repos/triangle-counting-mpi/build/Linux-x86_64/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_61179.dir/CMakeCCompilerABI.c.o
+/usr/lib64/mpi/gcc/openmpi4/bin/mpicc   -v -o CMakeFiles/cmTC_61179.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake/Modules/CMakeCCompilerABI.c
 Using built-in specs.
-COLLECT_GCC=/panfs/roc/msisoft/gcc/8.2.0/bin/gcc
-COLLECT_LTO_WRAPPER=/panfs/roc/msisoft/gcc/8.2.0/libexec/gcc/x86_64-pc-linux-gnu/8.2.0/lto-wrapper
-Target: x86_64-pc-linux-gnu
-Configured with: ./configure --prefix=/panfs/roc/msisoft/gcc/8.2.0 --with-gmp=/panfs/roc/msisoft/gmp/6.1.2_gcc8.2.0 --with-mpfr=/panfs/roc/msisoft/mpfr/4.0.1_gcc8.2.0 --with-mpc=/panfs/roc/msisoft/mpc/1.1.0_gcc8.2.0 --with-isl=/panfs/roc/msisoft/isl/0.20_gcc8.2.0 --enable-bootstrap --disable-multilib
+COLLECT_GCC=/usr/bin/gcc
+OFFLOAD_TARGET_NAMES=hsa:nvptx-none
+Target: x86_64-suse-linux
+Configured with: ../configure --prefix=/usr --infodir=/usr/share/info --mandir=/usr/share/man --libdir=/usr/lib64 --libexecdir=/usr/lib64 --enable-languages=c,c++,objc,fortran,obj-c++,ada,go --enable-offload-targets=hsa,nvptx-none, --without-cuda-driver --enable-checking=release --disable-werror --with-gxx-include-dir=/usr/include/c++/7 --enable-ssp --disable-libssp --disable-libvtv --disable-libcc1 --disable-plugin --with-bugurl=https://bugs.opensuse.org/ --with-pkgversion='SUSE Linux' --with-slibdir=/lib64 --with-system-zlib --enable-libstdcxx-allocator=new --disable-libstdcxx-pch --enable-version-specific-runtime-libs --with-gcc-major-version-only --enable-linker-build-id --enable-linux-futex --enable-gnu-indirect-function --program-suffix=-7 --without-system-libunwind --enable-multilib --with-arch-32=x86-64 --with-tune=generic --build=x86_64-suse-linux --host=x86_64-suse-linux
 Thread model: posix
-gcc version 8.2.0 (GCC) 
-COMPILER_PATH=/panfs/roc/msisoft/gcc/8.2.0/libexec/gcc/x86_64-pc-linux-gnu/8.2.0/:/panfs/roc/msisoft/gcc/8.2.0/libexec/gcc/x86_64-pc-linux-gnu/8.2.0/:/panfs/roc/msisoft/gcc/8.2.0/libexec/gcc/x86_64-pc-linux-gnu/:/panfs/roc/msisoft/gcc/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/:/panfs/roc/msisoft/gcc/8.2.0/lib/gcc/x86_64-pc-linux-gnu/
-LIBRARY_PATH=/panfs/roc/msisoft/gcc/8.2.0/lib64/../lib64/:/panfs/roc/msisoft/gcc/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/:/panfs/roc/msisoft/gcc/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/panfs/roc/msisoft/openmpi/el6/4.0.0/gnu-8.2.0.CentOS7/lib/:/panfs/roc/msisoft/gcc/8.2.0/lib64/:/panfs/roc/msisoft/isl/0.19_gcc8.1.0/lib/:/panfs/roc/msisoft/mpc/1.1.0_gcc8.1.0/lib/:/panfs/roc/msisoft/mpfr/4.0.1_gcc8.1.0/lib/:/panfs/roc/msisoft/gmp/6.1.2_gcc8.1.0/lib/:/panfs/roc/msisoft/binutils/2.32_gcc8.2.0/lib/:/panfs/roc/msisoft/gcc/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_11cd5' '-I' '/panfs/roc/msisoft/openmpi/el6/4.0.0/gnu-8.2.0.CentOS7/include' '-pthread' '-L/panfs/roc/msisoft/openmpi/el6/4.0.0/gnu-8.2.0.CentOS7/lib' '-mtune=generic' '-march=x86-64'
- /panfs/roc/msisoft/gcc/8.2.0/libexec/gcc/x86_64-pc-linux-gnu/8.2.0/collect2 -plugin /panfs/roc/msisoft/gcc/8.2.0/libexec/gcc/x86_64-pc-linux-gnu/8.2.0/liblto_plugin.so -plugin-opt=/panfs/roc/msisoft/gcc/8.2.0/libexec/gcc/x86_64-pc-linux-gnu/8.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccInOvaK.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_11cd5 /lib/../lib64/crt1.o /lib/../lib64/crti.o /panfs/roc/msisoft/gcc/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/crtbegin.o -L/panfs/roc/msisoft/openmpi/el6/4.0.0/gnu-8.2.0.CentOS7/lib -L/panfs/roc/msisoft/gcc/8.2.0/lib64/../lib64 -L/panfs/roc/msisoft/gcc/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0 -L/panfs/roc/msisoft/gcc/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/panfs/roc/msisoft/openmpi/el6/4.0.0/gnu-8.2.0.CentOS7/lib -L/panfs/roc/msisoft/gcc/8.2.0/lib64 -L/panfs/roc/msisoft/isl/0.19_gcc8.1.0/lib -L/panfs/roc/msisoft/mpc/1.1.0_gcc8.1.0/lib -L/panfs/roc/msisoft/mpfr/4.0.1_gcc8.1.0/lib -L/panfs/roc/msisoft/gmp/6.1.2_gcc8.1.0/lib -L/panfs/roc/msisoft/binutils/2.32_gcc8.2.0/lib -L/panfs/roc/msisoft/gcc/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../.. CMakeFiles/cmTC_11cd5.dir/CMakeCCompilerABI.c.o -rpath /panfs/roc/msisoft/openmpi/el6/4.0.0/gnu-8.2.0.CentOS7/lib --enable-new-dtags -lmpi -lgcc --as-needed -lgcc_s --no-as-needed -lpthread -lc -lgcc --as-needed -lgcc_s --no-as-needed /panfs/roc/msisoft/gcc/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/crtend.o /lib/../lib64/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_11cd5' '-I' '/panfs/roc/msisoft/openmpi/el6/4.0.0/gnu-8.2.0.CentOS7/include' '-pthread' '-L/panfs/roc/msisoft/openmpi/el6/4.0.0/gnu-8.2.0.CentOS7/lib' '-mtune=generic' '-march=x86-64'
-gmake[2]: Leaving directory `/panfs/roc/groups/0/karypisg/tomxx030/distr_tc_cp/graphchallenge/distr_triangle_biggraphs/2DTriangleCounting/build/Linux-x86_64/CMakeFiles/CMakeTmp'
-gmake[1]: Leaving directory `/panfs/roc/groups/0/karypisg/tomxx030/distr_tc_cp/graphchallenge/distr_triangle_biggraphs/2DTriangleCounting/build/Linux-x86_64/CMakeFiles/CMakeTmp'
+gcc version 7.5.0 (SUSE Linux) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_61179.dir/CMakeCCompilerABI.c.o' '-c' '-I' '/usr/lib64/mpi/gcc/openmpi4/include' '-pthread' '-mtune=generic' '-march=x86-64'
+ /usr/lib64/gcc/x86_64-suse-linux/7/cc1 -quiet -v -I /usr/lib64/mpi/gcc/openmpi4/include -D_REENTRANT /usr/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_61179.dir/CMakeCCompilerABI.c.o -version -o /tmp/ccHNH0Ct.s
+GNU C11 (SUSE Linux) version 7.5.0 (x86_64-suse-linux)
+	compiled by GNU C version 7.5.0, GMP version 6.1.2, MPFR version 4.0.1, MPC version 1.1.0, isl version isl-0.18-GMP
+
+warning: GMP header version 6.1.2 differs from library version 6.2.0.
+warning: MPFR header version 4.0.1 differs from library version 4.0.2-p6.
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/lib64/mpi/gcc/openmpi4/include
+ /usr/lib64/gcc/x86_64-suse-linux/7/include
+ /usr/local/include
+ /usr/lib64/gcc/x86_64-suse-linux/7/include-fixed
+ /usr/lib64/gcc/x86_64-suse-linux/7/../../../../x86_64-suse-linux/include
+ /usr/include
+End of search list.
+GNU C11 (SUSE Linux) version 7.5.0 (x86_64-suse-linux)
+	compiled by GNU C version 7.5.0, GMP version 6.1.2, MPFR version 4.0.1, MPC version 1.1.0, isl version isl-0.18-GMP
+
+warning: GMP header version 6.1.2 differs from library version 6.2.0.
+warning: MPFR header version 4.0.1 differs from library version 4.0.2-p6.
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 3d1e643bb079e3c8a0125787063a3bc6
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_61179.dir/CMakeCCompilerABI.c.o' '-c' '-I' '/usr/lib64/mpi/gcc/openmpi4/include' '-pthread' '-mtune=generic' '-march=x86-64'
+ /usr/lib64/gcc/x86_64-suse-linux/7/../../../../x86_64-suse-linux/bin/as -v -I /usr/lib64/mpi/gcc/openmpi4/include --64 -o CMakeFiles/cmTC_61179.dir/CMakeCCompilerABI.c.o /tmp/ccHNH0Ct.s
+GNU assembler version 2.36.1 (x86_64-suse-linux) using BFD version (GNU Binutils; devel:gcc / openSUSE_Leap_15.1) 2.36.1.20210326-lp151.412
+COMPILER_PATH=/usr/lib64/gcc/x86_64-suse-linux/7/:/usr/lib64/gcc/x86_64-suse-linux/7/:/usr/lib64/gcc/x86_64-suse-linux/:/usr/lib64/gcc/x86_64-suse-linux/7/:/usr/lib64/gcc/x86_64-suse-linux/:/usr/lib64/gcc/x86_64-suse-linux/7/../../../../x86_64-suse-linux/bin/
+LIBRARY_PATH=/usr/lib64/gcc/x86_64-suse-linux/7/:/usr/lib64/gcc/x86_64-suse-linux/7/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib64/gcc/x86_64-suse-linux/7/../../../../x86_64-suse-linux/lib/:/usr/lib64/gcc/x86_64-suse-linux/7/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_61179.dir/CMakeCCompilerABI.c.o' '-c' '-I' '/usr/lib64/mpi/gcc/openmpi4/include' '-pthread' '-mtune=generic' '-march=x86-64'
+Linking C executable cmTC_61179
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_61179.dir/link.txt --verbose=1
+/usr/lib64/mpi/gcc/openmpi4/bin/mpicc     -v -rdynamic CMakeFiles/cmTC_61179.dir/CMakeCCompilerABI.c.o  -o cmTC_61179 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/gcc
+COLLECT_LTO_WRAPPER=/usr/lib64/gcc/x86_64-suse-linux/7/lto-wrapper
+OFFLOAD_TARGET_NAMES=hsa:nvptx-none
+Target: x86_64-suse-linux
+Configured with: ../configure --prefix=/usr --infodir=/usr/share/info --mandir=/usr/share/man --libdir=/usr/lib64 --libexecdir=/usr/lib64 --enable-languages=c,c++,objc,fortran,obj-c++,ada,go --enable-offload-targets=hsa,nvptx-none, --without-cuda-driver --enable-checking=release --disable-werror --with-gxx-include-dir=/usr/include/c++/7 --enable-ssp --disable-libssp --disable-libvtv --disable-libcc1 --disable-plugin --with-bugurl=https://bugs.opensuse.org/ --with-pkgversion='SUSE Linux' --with-slibdir=/lib64 --with-system-zlib --enable-libstdcxx-allocator=new --disable-libstdcxx-pch --enable-version-specific-runtime-libs --with-gcc-major-version-only --enable-linker-build-id --enable-linux-futex --enable-gnu-indirect-function --program-suffix=-7 --without-system-libunwind --enable-multilib --with-arch-32=x86-64 --with-tune=generic --build=x86_64-suse-linux --host=x86_64-suse-linux
+Thread model: posix
+gcc version 7.5.0 (SUSE Linux) 
+COMPILER_PATH=/usr/lib64/gcc/x86_64-suse-linux/7/:/usr/lib64/gcc/x86_64-suse-linux/7/:/usr/lib64/gcc/x86_64-suse-linux/:/usr/lib64/gcc/x86_64-suse-linux/7/:/usr/lib64/gcc/x86_64-suse-linux/:/usr/lib64/gcc/x86_64-suse-linux/7/../../../../x86_64-suse-linux/bin/
+LIBRARY_PATH=/usr/lib64/gcc/x86_64-suse-linux/7/:/usr/lib64/gcc/x86_64-suse-linux/7/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib64/gcc/x86_64-suse-linux/7/../../../../x86_64-suse-linux/lib/:/usr/lib64/gcc/x86_64-suse-linux/7/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_61179' '-I' '/usr/lib64/mpi/gcc/openmpi4/include' '-pthread' '-L/usr/lib64/mpi/gcc/openmpi4/lib64' '-mtune=generic' '-march=x86-64'
+ /usr/lib64/gcc/x86_64-suse-linux/7/collect2 -plugin /usr/lib64/gcc/x86_64-suse-linux/7/liblto_plugin.so -plugin-opt=/usr/lib64/gcc/x86_64-suse-linux/7/lto-wrapper -plugin-opt=-fresolution=/tmp/cc1ZDJqB.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_61179 /usr/lib64/gcc/x86_64-suse-linux/7/../../../../lib64/crt1.o /usr/lib64/gcc/x86_64-suse-linux/7/../../../../lib64/crti.o /usr/lib64/gcc/x86_64-suse-linux/7/crtbegin.o -L/usr/lib64/mpi/gcc/openmpi4/lib64 -L/usr/lib64/gcc/x86_64-suse-linux/7 -L/usr/lib64/gcc/x86_64-suse-linux/7/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib64/gcc/x86_64-suse-linux/7/../../../../x86_64-suse-linux/lib -L/usr/lib64/gcc/x86_64-suse-linux/7/../../.. CMakeFiles/cmTC_61179.dir/CMakeCCompilerABI.c.o -lmpi -lgcc --as-needed -lgcc_s --no-as-needed -lpthread -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib64/gcc/x86_64-suse-linux/7/crtend.o /usr/lib64/gcc/x86_64-suse-linux/7/../../../../lib64/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_61179' '-I' '/usr/lib64/mpi/gcc/openmpi4/include' '-pthread' '-L/usr/lib64/mpi/gcc/openmpi4/lib64' '-mtune=generic' '-march=x86-64'
+gmake[2]: Leaving directory '/vol/home-vol1/maks/brandtfa/Documents/repos/triangle-counting-mpi/build/Linux-x86_64/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory '/vol/home-vol1/maks/brandtfa/Documents/repos/triangle-counting-mpi/build/Linux-x86_64/CMakeFiles/CMakeTmp'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/lib64/mpi/gcc/openmpi4/include]
+    add: [/usr/lib64/gcc/x86_64-suse-linux/7/include]
+    add: [/usr/local/include]
+    add: [/usr/lib64/gcc/x86_64-suse-linux/7/include-fixed]
+    add: [/usr/lib64/gcc/x86_64-suse-linux/7/../../../../x86_64-suse-linux/include]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/usr/lib64/mpi/gcc/openmpi4/include] ==> [/usr/lib64/mpi/gcc/openmpi4/include]
+  collapse include dir [/usr/lib64/gcc/x86_64-suse-linux/7/include] ==> [/usr/lib64/gcc/x86_64-suse-linux/7/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/usr/lib64/gcc/x86_64-suse-linux/7/include-fixed] ==> [/usr/lib64/gcc/x86_64-suse-linux/7/include-fixed]
+  collapse include dir [/usr/lib64/gcc/x86_64-suse-linux/7/../../../../x86_64-suse-linux/include] ==> [/usr/x86_64-suse-linux/include]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/usr/lib64/mpi/gcc/openmpi4/include;/usr/lib64/gcc/x86_64-suse-linux/7/include;/usr/local/include;/usr/lib64/gcc/x86_64-suse-linux/7/include-fixed;/usr/x86_64-suse-linux/include;/usr/include]
 
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/karypisg/tomxx030/distr_tc_cp/graphchallenge/distr_triangle_biggraphs/2DTriangleCounting/build/Linux-x86_64/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /vol/home-vol1/maks/brandtfa/Documents/repos/triangle-counting-mpi/build/Linux-x86_64/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/gmake" "cmTC_11cd5/fast"]
-  ignore line: [gmake[1]: Entering directory `/panfs/roc/groups/0/karypisg/tomxx030/distr_tc_cp/graphchallenge/distr_triangle_biggraphs/2DTriangleCounting/build/Linux-x86_64/CMakeFiles/CMakeTmp']
-  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTC_11cd5.dir/build.make CMakeFiles/cmTC_11cd5.dir/build]
-  ignore line: [gmake[2]: Entering directory `/panfs/roc/groups/0/karypisg/tomxx030/distr_tc_cp/graphchallenge/distr_triangle_biggraphs/2DTriangleCounting/build/Linux-x86_64/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_11cd5.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/panfs/roc/msisoft/openmpi/el6/4.0.0/gnu-8.2.0.CentOS7/bin/mpicc    -o CMakeFiles/cmTC_11cd5.dir/CMakeCCompilerABI.c.o   -c /panfs/roc/msisoft/cmake/3.10.2/share/cmake-3.10/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTC_11cd5]
-  ignore line: [/panfs/roc/msisoft/cmake/3.10.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_11cd5.dir/link.txt --verbose=1]
-  ignore line: [/panfs/roc/msisoft/openmpi/el6/4.0.0/gnu-8.2.0.CentOS7/bin/mpicc     -v -rdynamic CMakeFiles/cmTC_11cd5.dir/CMakeCCompilerABI.c.o  -o cmTC_11cd5 ]
+  ignore line: [Run Build Command(s):/usr/bin/gmake cmTC_61179/fast && gmake[1]: Entering directory '/vol/home-vol1/maks/brandtfa/Documents/repos/triangle-counting-mpi/build/Linux-x86_64/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTC_61179.dir/build.make CMakeFiles/cmTC_61179.dir/build]
+  ignore line: [gmake[2]: Entering directory '/vol/home-vol1/maks/brandtfa/Documents/repos/triangle-counting-mpi/build/Linux-x86_64/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_61179.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/lib64/mpi/gcc/openmpi4/bin/mpicc   -v -o CMakeFiles/cmTC_61179.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake/Modules/CMakeCCompilerABI.c]
   ignore line: [Using built-in specs.]
-  ignore line: [COLLECT_GCC=/panfs/roc/msisoft/gcc/8.2.0/bin/gcc]
-  ignore line: [COLLECT_LTO_WRAPPER=/panfs/roc/msisoft/gcc/8.2.0/libexec/gcc/x86_64-pc-linux-gnu/8.2.0/lto-wrapper]
-  ignore line: [Target: x86_64-pc-linux-gnu]
-  ignore line: [Configured with: ./configure --prefix=/panfs/roc/msisoft/gcc/8.2.0 --with-gmp=/panfs/roc/msisoft/gmp/6.1.2_gcc8.2.0 --with-mpfr=/panfs/roc/msisoft/mpfr/4.0.1_gcc8.2.0 --with-mpc=/panfs/roc/msisoft/mpc/1.1.0_gcc8.2.0 --with-isl=/panfs/roc/msisoft/isl/0.20_gcc8.2.0 --enable-bootstrap --disable-multilib]
+  ignore line: [COLLECT_GCC=/usr/bin/gcc]
+  ignore line: [OFFLOAD_TARGET_NAMES=hsa:nvptx-none]
+  ignore line: [Target: x86_64-suse-linux]
+  ignore line: [Configured with: ../configure --prefix=/usr --infodir=/usr/share/info --mandir=/usr/share/man --libdir=/usr/lib64 --libexecdir=/usr/lib64 --enable-languages=c c++ objc fortran obj-c++ ada go --enable-offload-targets=hsa nvptx-none  --without-cuda-driver --enable-checking=release --disable-werror --with-gxx-include-dir=/usr/include/c++/7 --enable-ssp --disable-libssp --disable-libvtv --disable-libcc1 --disable-plugin --with-bugurl=https://bugs.opensuse.org/ --with-pkgversion='SUSE Linux' --with-slibdir=/lib64 --with-system-zlib --enable-libstdcxx-allocator=new --disable-libstdcxx-pch --enable-version-specific-runtime-libs --with-gcc-major-version-only --enable-linker-build-id --enable-linux-futex --enable-gnu-indirect-function --program-suffix=-7 --without-system-libunwind --enable-multilib --with-arch-32=x86-64 --with-tune=generic --build=x86_64-suse-linux --host=x86_64-suse-linux]
   ignore line: [Thread model: posix]
-  ignore line: [gcc version 8.2.0 (GCC) ]
-  ignore line: [COMPILER_PATH=/panfs/roc/msisoft/gcc/8.2.0/libexec/gcc/x86_64-pc-linux-gnu/8.2.0/:/panfs/roc/msisoft/gcc/8.2.0/libexec/gcc/x86_64-pc-linux-gnu/8.2.0/:/panfs/roc/msisoft/gcc/8.2.0/libexec/gcc/x86_64-pc-linux-gnu/:/panfs/roc/msisoft/gcc/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/:/panfs/roc/msisoft/gcc/8.2.0/lib/gcc/x86_64-pc-linux-gnu/]
-  ignore line: [LIBRARY_PATH=/panfs/roc/msisoft/gcc/8.2.0/lib64/../lib64/:/panfs/roc/msisoft/gcc/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/:/panfs/roc/msisoft/gcc/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/panfs/roc/msisoft/openmpi/el6/4.0.0/gnu-8.2.0.CentOS7/lib/:/panfs/roc/msisoft/gcc/8.2.0/lib64/:/panfs/roc/msisoft/isl/0.19_gcc8.1.0/lib/:/panfs/roc/msisoft/mpc/1.1.0_gcc8.1.0/lib/:/panfs/roc/msisoft/mpfr/4.0.1_gcc8.1.0/lib/:/panfs/roc/msisoft/gmp/6.1.2_gcc8.1.0/lib/:/panfs/roc/msisoft/binutils/2.32_gcc8.2.0/lib/:/panfs/roc/msisoft/gcc/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_11cd5' '-I' '/panfs/roc/msisoft/openmpi/el6/4.0.0/gnu-8.2.0.CentOS7/include' '-pthread' '-L/panfs/roc/msisoft/openmpi/el6/4.0.0/gnu-8.2.0.CentOS7/lib' '-mtune=generic' '-march=x86-64']
-  link line: [ /panfs/roc/msisoft/gcc/8.2.0/libexec/gcc/x86_64-pc-linux-gnu/8.2.0/collect2 -plugin /panfs/roc/msisoft/gcc/8.2.0/libexec/gcc/x86_64-pc-linux-gnu/8.2.0/liblto_plugin.so -plugin-opt=/panfs/roc/msisoft/gcc/8.2.0/libexec/gcc/x86_64-pc-linux-gnu/8.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccInOvaK.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_11cd5 /lib/../lib64/crt1.o /lib/../lib64/crti.o /panfs/roc/msisoft/gcc/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/crtbegin.o -L/panfs/roc/msisoft/openmpi/el6/4.0.0/gnu-8.2.0.CentOS7/lib -L/panfs/roc/msisoft/gcc/8.2.0/lib64/../lib64 -L/panfs/roc/msisoft/gcc/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0 -L/panfs/roc/msisoft/gcc/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/panfs/roc/msisoft/openmpi/el6/4.0.0/gnu-8.2.0.CentOS7/lib -L/panfs/roc/msisoft/gcc/8.2.0/lib64 -L/panfs/roc/msisoft/isl/0.19_gcc8.1.0/lib -L/panfs/roc/msisoft/mpc/1.1.0_gcc8.1.0/lib -L/panfs/roc/msisoft/mpfr/4.0.1_gcc8.1.0/lib -L/panfs/roc/msisoft/gmp/6.1.2_gcc8.1.0/lib -L/panfs/roc/msisoft/binutils/2.32_gcc8.2.0/lib -L/panfs/roc/msisoft/gcc/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../.. CMakeFiles/cmTC_11cd5.dir/CMakeCCompilerABI.c.o -rpath /panfs/roc/msisoft/openmpi/el6/4.0.0/gnu-8.2.0.CentOS7/lib --enable-new-dtags -lmpi -lgcc --as-needed -lgcc_s --no-as-needed -lpthread -lc -lgcc --as-needed -lgcc_s --no-as-needed /panfs/roc/msisoft/gcc/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/crtend.o /lib/../lib64/crtn.o]
-    arg [/panfs/roc/msisoft/gcc/8.2.0/libexec/gcc/x86_64-pc-linux-gnu/8.2.0/collect2] ==> ignore
+  ignore line: [gcc version 7.5.0 (SUSE Linux) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_61179.dir/CMakeCCompilerABI.c.o' '-c' '-I' '/usr/lib64/mpi/gcc/openmpi4/include' '-pthread' '-mtune=generic' '-march=x86-64']
+  ignore line: [ /usr/lib64/gcc/x86_64-suse-linux/7/cc1 -quiet -v -I /usr/lib64/mpi/gcc/openmpi4/include -D_REENTRANT /usr/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_61179.dir/CMakeCCompilerABI.c.o -version -o /tmp/ccHNH0Ct.s]
+  ignore line: [GNU C11 (SUSE Linux) version 7.5.0 (x86_64-suse-linux)]
+  ignore line: [	compiled by GNU C version 7.5.0  GMP version 6.1.2  MPFR version 4.0.1  MPC version 1.1.0  isl version isl-0.18-GMP]
+  ignore line: []
+  ignore line: [warning: GMP header version 6.1.2 differs from library version 6.2.0.]
+  ignore line: [warning: MPFR header version 4.0.1 differs from library version 4.0.2-p6.]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/lib64/mpi/gcc/openmpi4/include]
+  ignore line: [ /usr/lib64/gcc/x86_64-suse-linux/7/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/lib64/gcc/x86_64-suse-linux/7/include-fixed]
+  ignore line: [ /usr/lib64/gcc/x86_64-suse-linux/7/../../../../x86_64-suse-linux/include]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C11 (SUSE Linux) version 7.5.0 (x86_64-suse-linux)]
+  ignore line: [	compiled by GNU C version 7.5.0  GMP version 6.1.2  MPFR version 4.0.1  MPC version 1.1.0  isl version isl-0.18-GMP]
+  ignore line: []
+  ignore line: [warning: GMP header version 6.1.2 differs from library version 6.2.0.]
+  ignore line: [warning: MPFR header version 4.0.1 differs from library version 4.0.2-p6.]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 3d1e643bb079e3c8a0125787063a3bc6]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_61179.dir/CMakeCCompilerABI.c.o' '-c' '-I' '/usr/lib64/mpi/gcc/openmpi4/include' '-pthread' '-mtune=generic' '-march=x86-64']
+  ignore line: [ /usr/lib64/gcc/x86_64-suse-linux/7/../../../../x86_64-suse-linux/bin/as -v -I /usr/lib64/mpi/gcc/openmpi4/include --64 -o CMakeFiles/cmTC_61179.dir/CMakeCCompilerABI.c.o /tmp/ccHNH0Ct.s]
+  ignore line: [GNU assembler version 2.36.1 (x86_64-suse-linux) using BFD version (GNU Binutils]
+  ignore line: [ devel:gcc / openSUSE_Leap_15.1) 2.36.1.20210326-lp151.412]
+  ignore line: [COMPILER_PATH=/usr/lib64/gcc/x86_64-suse-linux/7/:/usr/lib64/gcc/x86_64-suse-linux/7/:/usr/lib64/gcc/x86_64-suse-linux/:/usr/lib64/gcc/x86_64-suse-linux/7/:/usr/lib64/gcc/x86_64-suse-linux/:/usr/lib64/gcc/x86_64-suse-linux/7/../../../../x86_64-suse-linux/bin/]
+  ignore line: [LIBRARY_PATH=/usr/lib64/gcc/x86_64-suse-linux/7/:/usr/lib64/gcc/x86_64-suse-linux/7/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib64/gcc/x86_64-suse-linux/7/../../../../x86_64-suse-linux/lib/:/usr/lib64/gcc/x86_64-suse-linux/7/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_61179.dir/CMakeCCompilerABI.c.o' '-c' '-I' '/usr/lib64/mpi/gcc/openmpi4/include' '-pthread' '-mtune=generic' '-march=x86-64']
+  ignore line: [Linking C executable cmTC_61179]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_61179.dir/link.txt --verbose=1]
+  ignore line: [/usr/lib64/mpi/gcc/openmpi4/bin/mpicc     -v -rdynamic CMakeFiles/cmTC_61179.dir/CMakeCCompilerABI.c.o  -o cmTC_61179 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/gcc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib64/gcc/x86_64-suse-linux/7/lto-wrapper]
+  ignore line: [OFFLOAD_TARGET_NAMES=hsa:nvptx-none]
+  ignore line: [Target: x86_64-suse-linux]
+  ignore line: [Configured with: ../configure --prefix=/usr --infodir=/usr/share/info --mandir=/usr/share/man --libdir=/usr/lib64 --libexecdir=/usr/lib64 --enable-languages=c c++ objc fortran obj-c++ ada go --enable-offload-targets=hsa nvptx-none  --without-cuda-driver --enable-checking=release --disable-werror --with-gxx-include-dir=/usr/include/c++/7 --enable-ssp --disable-libssp --disable-libvtv --disable-libcc1 --disable-plugin --with-bugurl=https://bugs.opensuse.org/ --with-pkgversion='SUSE Linux' --with-slibdir=/lib64 --with-system-zlib --enable-libstdcxx-allocator=new --disable-libstdcxx-pch --enable-version-specific-runtime-libs --with-gcc-major-version-only --enable-linker-build-id --enable-linux-futex --enable-gnu-indirect-function --program-suffix=-7 --without-system-libunwind --enable-multilib --with-arch-32=x86-64 --with-tune=generic --build=x86_64-suse-linux --host=x86_64-suse-linux]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 7.5.0 (SUSE Linux) ]
+  ignore line: [COMPILER_PATH=/usr/lib64/gcc/x86_64-suse-linux/7/:/usr/lib64/gcc/x86_64-suse-linux/7/:/usr/lib64/gcc/x86_64-suse-linux/:/usr/lib64/gcc/x86_64-suse-linux/7/:/usr/lib64/gcc/x86_64-suse-linux/:/usr/lib64/gcc/x86_64-suse-linux/7/../../../../x86_64-suse-linux/bin/]
+  ignore line: [LIBRARY_PATH=/usr/lib64/gcc/x86_64-suse-linux/7/:/usr/lib64/gcc/x86_64-suse-linux/7/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib64/gcc/x86_64-suse-linux/7/../../../../x86_64-suse-linux/lib/:/usr/lib64/gcc/x86_64-suse-linux/7/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_61179' '-I' '/usr/lib64/mpi/gcc/openmpi4/include' '-pthread' '-L/usr/lib64/mpi/gcc/openmpi4/lib64' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib64/gcc/x86_64-suse-linux/7/collect2 -plugin /usr/lib64/gcc/x86_64-suse-linux/7/liblto_plugin.so -plugin-opt=/usr/lib64/gcc/x86_64-suse-linux/7/lto-wrapper -plugin-opt=-fresolution=/tmp/cc1ZDJqB.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_61179 /usr/lib64/gcc/x86_64-suse-linux/7/../../../../lib64/crt1.o /usr/lib64/gcc/x86_64-suse-linux/7/../../../../lib64/crti.o /usr/lib64/gcc/x86_64-suse-linux/7/crtbegin.o -L/usr/lib64/mpi/gcc/openmpi4/lib64 -L/usr/lib64/gcc/x86_64-suse-linux/7 -L/usr/lib64/gcc/x86_64-suse-linux/7/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib64/gcc/x86_64-suse-linux/7/../../../../x86_64-suse-linux/lib -L/usr/lib64/gcc/x86_64-suse-linux/7/../../.. CMakeFiles/cmTC_61179.dir/CMakeCCompilerABI.c.o -lmpi -lgcc --as-needed -lgcc_s --no-as-needed -lpthread -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib64/gcc/x86_64-suse-linux/7/crtend.o /usr/lib64/gcc/x86_64-suse-linux/7/../../../../lib64/crtn.o]
+    arg [/usr/lib64/gcc/x86_64-suse-linux/7/collect2] ==> ignore
     arg [-plugin] ==> ignore
-    arg [/panfs/roc/msisoft/gcc/8.2.0/libexec/gcc/x86_64-pc-linux-gnu/8.2.0/liblto_plugin.so] ==> ignore
-    arg [-plugin-opt=/panfs/roc/msisoft/gcc/8.2.0/libexec/gcc/x86_64-pc-linux-gnu/8.2.0/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccInOvaK.res] ==> ignore
+    arg [/usr/lib64/gcc/x86_64-suse-linux/7/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib64/gcc/x86_64-suse-linux/7/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cc1ZDJqB.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lpthread] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--build-id] ==> ignore
     arg [--eh-frame-hdr] ==> ignore
     arg [-m] ==> ignore
     arg [elf_x86_64] ==> ignore
@@ -98,28 +194,18 @@ Parsed C implicit link information from above output:
     arg [-dynamic-linker] ==> ignore
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_11cd5] ==> ignore
-    arg [/lib/../lib64/crt1.o] ==> ignore
-    arg [/lib/../lib64/crti.o] ==> ignore
-    arg [/panfs/roc/msisoft/gcc/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/crtbegin.o] ==> ignore
-    arg [-L/panfs/roc/msisoft/openmpi/el6/4.0.0/gnu-8.2.0.CentOS7/lib] ==> dir [/panfs/roc/msisoft/openmpi/el6/4.0.0/gnu-8.2.0.CentOS7/lib]
-    arg [-L/panfs/roc/msisoft/gcc/8.2.0/lib64/../lib64] ==> dir [/panfs/roc/msisoft/gcc/8.2.0/lib64/../lib64]
-    arg [-L/panfs/roc/msisoft/gcc/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0] ==> dir [/panfs/roc/msisoft/gcc/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0]
-    arg [-L/panfs/roc/msisoft/gcc/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../../../lib64] ==> dir [/panfs/roc/msisoft/gcc/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../../../lib64]
+    arg [cmTC_61179] ==> ignore
+    arg [/usr/lib64/gcc/x86_64-suse-linux/7/../../../../lib64/crt1.o] ==> ignore
+    arg [/usr/lib64/gcc/x86_64-suse-linux/7/../../../../lib64/crti.o] ==> ignore
+    arg [/usr/lib64/gcc/x86_64-suse-linux/7/crtbegin.o] ==> ignore
+    arg [-L/usr/lib64/mpi/gcc/openmpi4/lib64] ==> dir [/usr/lib64/mpi/gcc/openmpi4/lib64]
+    arg [-L/usr/lib64/gcc/x86_64-suse-linux/7] ==> dir [/usr/lib64/gcc/x86_64-suse-linux/7]
+    arg [-L/usr/lib64/gcc/x86_64-suse-linux/7/../../../../lib64] ==> dir [/usr/lib64/gcc/x86_64-suse-linux/7/../../../../lib64]
     arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
     arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
-    arg [-L/panfs/roc/msisoft/openmpi/el6/4.0.0/gnu-8.2.0.CentOS7/lib] ==> dir [/panfs/roc/msisoft/openmpi/el6/4.0.0/gnu-8.2.0.CentOS7/lib]
-    arg [-L/panfs/roc/msisoft/gcc/8.2.0/lib64] ==> dir [/panfs/roc/msisoft/gcc/8.2.0/lib64]
-    arg [-L/panfs/roc/msisoft/isl/0.19_gcc8.1.0/lib] ==> dir [/panfs/roc/msisoft/isl/0.19_gcc8.1.0/lib]
-    arg [-L/panfs/roc/msisoft/mpc/1.1.0_gcc8.1.0/lib] ==> dir [/panfs/roc/msisoft/mpc/1.1.0_gcc8.1.0/lib]
-    arg [-L/panfs/roc/msisoft/mpfr/4.0.1_gcc8.1.0/lib] ==> dir [/panfs/roc/msisoft/mpfr/4.0.1_gcc8.1.0/lib]
-    arg [-L/panfs/roc/msisoft/gmp/6.1.2_gcc8.1.0/lib] ==> dir [/panfs/roc/msisoft/gmp/6.1.2_gcc8.1.0/lib]
-    arg [-L/panfs/roc/msisoft/binutils/2.32_gcc8.2.0/lib] ==> dir [/panfs/roc/msisoft/binutils/2.32_gcc8.2.0/lib]
-    arg [-L/panfs/roc/msisoft/gcc/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../..] ==> dir [/panfs/roc/msisoft/gcc/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../..]
-    arg [CMakeFiles/cmTC_11cd5.dir/CMakeCCompilerABI.c.o] ==> ignore
-    arg [-rpath] ==> ignore
-    arg [/panfs/roc/msisoft/openmpi/el6/4.0.0/gnu-8.2.0.CentOS7/lib] ==> ignore
-    arg [--enable-new-dtags] ==> ignore
+    arg [-L/usr/lib64/gcc/x86_64-suse-linux/7/../../../../x86_64-suse-linux/lib] ==> dir [/usr/lib64/gcc/x86_64-suse-linux/7/../../../../x86_64-suse-linux/lib]
+    arg [-L/usr/lib64/gcc/x86_64-suse-linux/7/../../..] ==> dir [/usr/lib64/gcc/x86_64-suse-linux/7/../../..]
+    arg [CMakeFiles/cmTC_61179.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lmpi] ==> lib [mpi]
     arg [-lgcc] ==> lib [gcc]
     arg [--as-needed] ==> ignore
@@ -131,122 +217,49 @@ Parsed C implicit link information from above output:
     arg [--as-needed] ==> ignore
     arg [-lgcc_s] ==> lib [gcc_s]
     arg [--no-as-needed] ==> ignore
-    arg [/panfs/roc/msisoft/gcc/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/crtend.o] ==> ignore
-    arg [/lib/../lib64/crtn.o] ==> ignore
-  collapse library dir [/panfs/roc/msisoft/openmpi/el6/4.0.0/gnu-8.2.0.CentOS7/lib] ==> [/panfs/roc/msisoft/openmpi/el6/4.0.0/gnu-8.2.0.CentOS7/lib]
-  collapse library dir [/panfs/roc/msisoft/gcc/8.2.0/lib64/../lib64] ==> [/panfs/roc/msisoft/gcc/8.2.0/lib64]
-  collapse library dir [/panfs/roc/msisoft/gcc/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0] ==> [/panfs/roc/msisoft/gcc/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0]
-  collapse library dir [/panfs/roc/msisoft/gcc/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../../../lib64] ==> [/panfs/roc/msisoft/gcc/8.2.0/lib64]
+    arg [/usr/lib64/gcc/x86_64-suse-linux/7/crtend.o] ==> ignore
+    arg [/usr/lib64/gcc/x86_64-suse-linux/7/../../../../lib64/crtn.o] ==> ignore
+  collapse library dir [/usr/lib64/mpi/gcc/openmpi4/lib64] ==> [/usr/lib64/mpi/gcc/openmpi4/lib64]
+  collapse library dir [/usr/lib64/gcc/x86_64-suse-linux/7] ==> [/usr/lib64/gcc/x86_64-suse-linux/7]
+  collapse library dir [/usr/lib64/gcc/x86_64-suse-linux/7/../../../../lib64] ==> [/usr/lib64]
   collapse library dir [/lib/../lib64] ==> [/lib64]
   collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
-  collapse library dir [/panfs/roc/msisoft/openmpi/el6/4.0.0/gnu-8.2.0.CentOS7/lib] ==> [/panfs/roc/msisoft/openmpi/el6/4.0.0/gnu-8.2.0.CentOS7/lib]
-  collapse library dir [/panfs/roc/msisoft/gcc/8.2.0/lib64] ==> [/panfs/roc/msisoft/gcc/8.2.0/lib64]
-  collapse library dir [/panfs/roc/msisoft/isl/0.19_gcc8.1.0/lib] ==> [/panfs/roc/msisoft/isl/0.19_gcc8.1.0/lib]
-  collapse library dir [/panfs/roc/msisoft/mpc/1.1.0_gcc8.1.0/lib] ==> [/panfs/roc/msisoft/mpc/1.1.0_gcc8.1.0/lib]
-  collapse library dir [/panfs/roc/msisoft/mpfr/4.0.1_gcc8.1.0/lib] ==> [/panfs/roc/msisoft/mpfr/4.0.1_gcc8.1.0/lib]
-  collapse library dir [/panfs/roc/msisoft/gmp/6.1.2_gcc8.1.0/lib] ==> [/panfs/roc/msisoft/gmp/6.1.2_gcc8.1.0/lib]
-  collapse library dir [/panfs/roc/msisoft/binutils/2.32_gcc8.2.0/lib] ==> [/panfs/roc/msisoft/binutils/2.32_gcc8.2.0/lib]
-  collapse library dir [/panfs/roc/msisoft/gcc/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../..] ==> [/panfs/roc/msisoft/gcc/8.2.0/lib]
+  collapse library dir [/usr/lib64/gcc/x86_64-suse-linux/7/../../../../x86_64-suse-linux/lib] ==> [/usr/x86_64-suse-linux/lib]
+  collapse library dir [/usr/lib64/gcc/x86_64-suse-linux/7/../../..] ==> [/usr/lib64]
   implicit libs: [mpi;gcc;gcc_s;pthread;c;gcc;gcc_s]
-  implicit dirs: [/panfs/roc/msisoft/openmpi/el6/4.0.0/gnu-8.2.0.CentOS7/lib;/panfs/roc/msisoft/gcc/8.2.0/lib64;/panfs/roc/msisoft/gcc/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0;/lib64;/usr/lib64;/panfs/roc/msisoft/isl/0.19_gcc8.1.0/lib;/panfs/roc/msisoft/mpc/1.1.0_gcc8.1.0/lib;/panfs/roc/msisoft/mpfr/4.0.1_gcc8.1.0/lib;/panfs/roc/msisoft/gmp/6.1.2_gcc8.1.0/lib;/panfs/roc/msisoft/binutils/2.32_gcc8.2.0/lib;/panfs/roc/msisoft/gcc/8.2.0/lib]
+  implicit dirs: [/usr/lib64/mpi/gcc/openmpi4/lib64;/usr/lib64/gcc/x86_64-suse-linux/7;/usr/lib64;/lib64;/usr/x86_64-suse-linux/lib]
   implicit fwks: []
 
 
-
-
-Detecting C [-std=c11] compiler features compiled with the following output:
-Change Dir: /home/karypisg/tomxx030/distr_tc_cp/graphchallenge/distr_triangle_biggraphs/2DTriangleCounting/build/Linux-x86_64/CMakeFiles/CMakeTmp
-
-Run Build Command:"/usr/bin/gmake" "cmTC_603ff/fast"
-gmake[1]: Entering directory `/panfs/roc/groups/0/karypisg/tomxx030/distr_tc_cp/graphchallenge/distr_triangle_biggraphs/2DTriangleCounting/build/Linux-x86_64/CMakeFiles/CMakeTmp'
-/usr/bin/gmake -f CMakeFiles/cmTC_603ff.dir/build.make CMakeFiles/cmTC_603ff.dir/build
-gmake[2]: Entering directory `/panfs/roc/groups/0/karypisg/tomxx030/distr_tc_cp/graphchallenge/distr_triangle_biggraphs/2DTriangleCounting/build/Linux-x86_64/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_603ff.dir/feature_tests.c.o
-/panfs/roc/msisoft/openmpi/el6/4.0.0/gnu-8.2.0.CentOS7/bin/mpicc   -std=c11 -o CMakeFiles/cmTC_603ff.dir/feature_tests.c.o   -c /home/karypisg/tomxx030/distr_tc_cp/graphchallenge/distr_triangle_biggraphs/2DTriangleCounting/build/Linux-x86_64/CMakeFiles/feature_tests.c
-Linking C executable cmTC_603ff
-/panfs/roc/msisoft/cmake/3.10.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_603ff.dir/link.txt --verbose=1
-/panfs/roc/msisoft/openmpi/el6/4.0.0/gnu-8.2.0.CentOS7/bin/mpicc      -rdynamic CMakeFiles/cmTC_603ff.dir/feature_tests.c.o  -o cmTC_603ff 
-gmake[2]: Leaving directory `/panfs/roc/groups/0/karypisg/tomxx030/distr_tc_cp/graphchallenge/distr_triangle_biggraphs/2DTriangleCounting/build/Linux-x86_64/CMakeFiles/CMakeTmp'
-gmake[1]: Leaving directory `/panfs/roc/groups/0/karypisg/tomxx030/distr_tc_cp/graphchallenge/distr_triangle_biggraphs/2DTriangleCounting/build/Linux-x86_64/CMakeFiles/CMakeTmp'
-
-
-    Feature record: C_FEATURE:1c_function_prototypes
-    Feature record: C_FEATURE:1c_restrict
-    Feature record: C_FEATURE:1c_static_assert
-    Feature record: C_FEATURE:1c_variadic_macros
-
-
-Detecting C [-std=c99] compiler features compiled with the following output:
-Change Dir: /home/karypisg/tomxx030/distr_tc_cp/graphchallenge/distr_triangle_biggraphs/2DTriangleCounting/build/Linux-x86_64/CMakeFiles/CMakeTmp
-
-Run Build Command:"/usr/bin/gmake" "cmTC_d0974/fast"
-gmake[1]: Entering directory `/panfs/roc/groups/0/karypisg/tomxx030/distr_tc_cp/graphchallenge/distr_triangle_biggraphs/2DTriangleCounting/build/Linux-x86_64/CMakeFiles/CMakeTmp'
-/usr/bin/gmake -f CMakeFiles/cmTC_d0974.dir/build.make CMakeFiles/cmTC_d0974.dir/build
-gmake[2]: Entering directory `/panfs/roc/groups/0/karypisg/tomxx030/distr_tc_cp/graphchallenge/distr_triangle_biggraphs/2DTriangleCounting/build/Linux-x86_64/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_d0974.dir/feature_tests.c.o
-/panfs/roc/msisoft/openmpi/el6/4.0.0/gnu-8.2.0.CentOS7/bin/mpicc   -std=c99 -o CMakeFiles/cmTC_d0974.dir/feature_tests.c.o   -c /home/karypisg/tomxx030/distr_tc_cp/graphchallenge/distr_triangle_biggraphs/2DTriangleCounting/build/Linux-x86_64/CMakeFiles/feature_tests.c
-Linking C executable cmTC_d0974
-/panfs/roc/msisoft/cmake/3.10.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d0974.dir/link.txt --verbose=1
-/panfs/roc/msisoft/openmpi/el6/4.0.0/gnu-8.2.0.CentOS7/bin/mpicc      -rdynamic CMakeFiles/cmTC_d0974.dir/feature_tests.c.o  -o cmTC_d0974 
-gmake[2]: Leaving directory `/panfs/roc/groups/0/karypisg/tomxx030/distr_tc_cp/graphchallenge/distr_triangle_biggraphs/2DTriangleCounting/build/Linux-x86_64/CMakeFiles/CMakeTmp'
-gmake[1]: Leaving directory `/panfs/roc/groups/0/karypisg/tomxx030/distr_tc_cp/graphchallenge/distr_triangle_biggraphs/2DTriangleCounting/build/Linux-x86_64/CMakeFiles/CMakeTmp'
-
-
-    Feature record: C_FEATURE:1c_function_prototypes
-    Feature record: C_FEATURE:1c_restrict
-    Feature record: C_FEATURE:0c_static_assert
-    Feature record: C_FEATURE:1c_variadic_macros
-
-
-Detecting C [-std=c90] compiler features compiled with the following output:
-Change Dir: /home/karypisg/tomxx030/distr_tc_cp/graphchallenge/distr_triangle_biggraphs/2DTriangleCounting/build/Linux-x86_64/CMakeFiles/CMakeTmp
-
-Run Build Command:"/usr/bin/gmake" "cmTC_d13f3/fast"
-gmake[1]: Entering directory `/panfs/roc/groups/0/karypisg/tomxx030/distr_tc_cp/graphchallenge/distr_triangle_biggraphs/2DTriangleCounting/build/Linux-x86_64/CMakeFiles/CMakeTmp'
-/usr/bin/gmake -f CMakeFiles/cmTC_d13f3.dir/build.make CMakeFiles/cmTC_d13f3.dir/build
-gmake[2]: Entering directory `/panfs/roc/groups/0/karypisg/tomxx030/distr_tc_cp/graphchallenge/distr_triangle_biggraphs/2DTriangleCounting/build/Linux-x86_64/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_d13f3.dir/feature_tests.c.o
-/panfs/roc/msisoft/openmpi/el6/4.0.0/gnu-8.2.0.CentOS7/bin/mpicc   -std=c90 -o CMakeFiles/cmTC_d13f3.dir/feature_tests.c.o   -c /home/karypisg/tomxx030/distr_tc_cp/graphchallenge/distr_triangle_biggraphs/2DTriangleCounting/build/Linux-x86_64/CMakeFiles/feature_tests.c
-Linking C executable cmTC_d13f3
-/panfs/roc/msisoft/cmake/3.10.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d13f3.dir/link.txt --verbose=1
-/panfs/roc/msisoft/openmpi/el6/4.0.0/gnu-8.2.0.CentOS7/bin/mpicc      -rdynamic CMakeFiles/cmTC_d13f3.dir/feature_tests.c.o  -o cmTC_d13f3 
-gmake[2]: Leaving directory `/panfs/roc/groups/0/karypisg/tomxx030/distr_tc_cp/graphchallenge/distr_triangle_biggraphs/2DTriangleCounting/build/Linux-x86_64/CMakeFiles/CMakeTmp'
-gmake[1]: Leaving directory `/panfs/roc/groups/0/karypisg/tomxx030/distr_tc_cp/graphchallenge/distr_triangle_biggraphs/2DTriangleCounting/build/Linux-x86_64/CMakeFiles/CMakeTmp'
-
-
-    Feature record: C_FEATURE:1c_function_prototypes
-    Feature record: C_FEATURE:0c_restrict
-    Feature record: C_FEATURE:0c_static_assert
-    Feature record: C_FEATURE:0c_variadic_macros
 Determining if the include file execinfo.h exists passed with the following output:
-Change Dir: /home/karypisg/tomxx030/distr_tc_cp/graphchallenge/distr_triangle_biggraphs/2DTriangleCounting/build/Linux-x86_64/CMakeFiles/CMakeTmp
+Change Dir: /vol/home-vol1/maks/brandtfa/Documents/repos/triangle-counting-mpi/build/Linux-x86_64/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_0c07f/fast"
-gmake[1]: Entering directory `/panfs/roc/groups/0/karypisg/tomxx030/distr_tc_cp/graphchallenge/distr_triangle_biggraphs/2DTriangleCounting/build/Linux-x86_64/CMakeFiles/CMakeTmp'
-/usr/bin/gmake -f CMakeFiles/cmTC_0c07f.dir/build.make CMakeFiles/cmTC_0c07f.dir/build
-gmake[2]: Entering directory `/panfs/roc/groups/0/karypisg/tomxx030/distr_tc_cp/graphchallenge/distr_triangle_biggraphs/2DTriangleCounting/build/Linux-x86_64/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_0c07f.dir/CheckIncludeFile.c.o
-/panfs/roc/msisoft/openmpi/el6/4.0.0/gnu-8.2.0.CentOS7/bin/mpicc    -o CMakeFiles/cmTC_0c07f.dir/CheckIncludeFile.c.o   -c /home/karypisg/tomxx030/distr_tc_cp/graphchallenge/distr_triangle_biggraphs/2DTriangleCounting/build/Linux-x86_64/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_0c07f
-/panfs/roc/msisoft/cmake/3.10.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0c07f.dir/link.txt --verbose=1
-/panfs/roc/msisoft/openmpi/el6/4.0.0/gnu-8.2.0.CentOS7/bin/mpicc      -rdynamic CMakeFiles/cmTC_0c07f.dir/CheckIncludeFile.c.o  -o cmTC_0c07f 
-gmake[2]: Leaving directory `/panfs/roc/groups/0/karypisg/tomxx030/distr_tc_cp/graphchallenge/distr_triangle_biggraphs/2DTriangleCounting/build/Linux-x86_64/CMakeFiles/CMakeTmp'
-gmake[1]: Leaving directory `/panfs/roc/groups/0/karypisg/tomxx030/distr_tc_cp/graphchallenge/distr_triangle_biggraphs/2DTriangleCounting/build/Linux-x86_64/CMakeFiles/CMakeTmp'
+Run Build Command(s):/usr/bin/gmake cmTC_2c750/fast && gmake[1]: Verzeichnis „/vol/home-vol1/maks/brandtfa/Documents/repos/triangle-counting-mpi/build/Linux-x86_64/CMakeFiles/CMakeTmp“ wird betreten
+/usr/bin/gmake -f CMakeFiles/cmTC_2c750.dir/build.make CMakeFiles/cmTC_2c750.dir/build
+gmake[2]: Verzeichnis „/vol/home-vol1/maks/brandtfa/Documents/repos/triangle-counting-mpi/build/Linux-x86_64/CMakeFiles/CMakeTmp“ wird betreten
+Building C object CMakeFiles/cmTC_2c750.dir/CheckIncludeFile.c.o
+/usr/lib64/mpi/gcc/openmpi4/bin/mpicc    -o CMakeFiles/cmTC_2c750.dir/CheckIncludeFile.c.o   -c /vol/home-vol1/maks/brandtfa/Documents/repos/triangle-counting-mpi/build/Linux-x86_64/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_2c750
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2c750.dir/link.txt --verbose=1
+/usr/lib64/mpi/gcc/openmpi4/bin/mpicc      -rdynamic CMakeFiles/cmTC_2c750.dir/CheckIncludeFile.c.o  -o cmTC_2c750 
+gmake[2]: Verzeichnis „/vol/home-vol1/maks/brandtfa/Documents/repos/triangle-counting-mpi/build/Linux-x86_64/CMakeFiles/CMakeTmp“ wird verlassen
+gmake[1]: Verzeichnis „/vol/home-vol1/maks/brandtfa/Documents/repos/triangle-counting-mpi/build/Linux-x86_64/CMakeFiles/CMakeTmp“ wird verlassen
+
 
 
 Determining if the function getline exists passed with the following output:
-Change Dir: /home/karypisg/tomxx030/distr_tc_cp/graphchallenge/distr_triangle_biggraphs/2DTriangleCounting/build/Linux-x86_64/CMakeFiles/CMakeTmp
+Change Dir: /vol/home-vol1/maks/brandtfa/Documents/repos/triangle-counting-mpi/build/Linux-x86_64/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_38701/fast"
-gmake[1]: Entering directory `/panfs/roc/groups/0/karypisg/tomxx030/distr_tc_cp/graphchallenge/distr_triangle_biggraphs/2DTriangleCounting/build/Linux-x86_64/CMakeFiles/CMakeTmp'
-/usr/bin/gmake -f CMakeFiles/cmTC_38701.dir/build.make CMakeFiles/cmTC_38701.dir/build
-gmake[2]: Entering directory `/panfs/roc/groups/0/karypisg/tomxx030/distr_tc_cp/graphchallenge/distr_triangle_biggraphs/2DTriangleCounting/build/Linux-x86_64/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_38701.dir/CheckFunctionExists.c.o
-/panfs/roc/msisoft/openmpi/el6/4.0.0/gnu-8.2.0.CentOS7/bin/mpicc   -DCHECK_FUNCTION_EXISTS=getline   -o CMakeFiles/cmTC_38701.dir/CheckFunctionExists.c.o   -c /panfs/roc/msisoft/cmake/3.10.2/share/cmake-3.10/Modules/CheckFunctionExists.c
-Linking C executable cmTC_38701
-/panfs/roc/msisoft/cmake/3.10.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_38701.dir/link.txt --verbose=1
-/panfs/roc/msisoft/openmpi/el6/4.0.0/gnu-8.2.0.CentOS7/bin/mpicc  -DCHECK_FUNCTION_EXISTS=getline    -rdynamic CMakeFiles/cmTC_38701.dir/CheckFunctionExists.c.o  -o cmTC_38701 
-gmake[2]: Leaving directory `/panfs/roc/groups/0/karypisg/tomxx030/distr_tc_cp/graphchallenge/distr_triangle_biggraphs/2DTriangleCounting/build/Linux-x86_64/CMakeFiles/CMakeTmp'
-gmake[1]: Leaving directory `/panfs/roc/groups/0/karypisg/tomxx030/distr_tc_cp/graphchallenge/distr_triangle_biggraphs/2DTriangleCounting/build/Linux-x86_64/CMakeFiles/CMakeTmp'
+Run Build Command(s):/usr/bin/gmake cmTC_f6077/fast && gmake[1]: Verzeichnis „/vol/home-vol1/maks/brandtfa/Documents/repos/triangle-counting-mpi/build/Linux-x86_64/CMakeFiles/CMakeTmp“ wird betreten
+/usr/bin/gmake -f CMakeFiles/cmTC_f6077.dir/build.make CMakeFiles/cmTC_f6077.dir/build
+gmake[2]: Verzeichnis „/vol/home-vol1/maks/brandtfa/Documents/repos/triangle-counting-mpi/build/Linux-x86_64/CMakeFiles/CMakeTmp“ wird betreten
+Building C object CMakeFiles/cmTC_f6077.dir/CheckFunctionExists.c.o
+/usr/lib64/mpi/gcc/openmpi4/bin/mpicc   -DCHECK_FUNCTION_EXISTS=getline   -o CMakeFiles/cmTC_f6077.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_f6077
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f6077.dir/link.txt --verbose=1
+/usr/lib64/mpi/gcc/openmpi4/bin/mpicc  -DCHECK_FUNCTION_EXISTS=getline    -rdynamic CMakeFiles/cmTC_f6077.dir/CheckFunctionExists.c.o  -o cmTC_f6077 
+gmake[2]: Verzeichnis „/vol/home-vol1/maks/brandtfa/Documents/repos/triangle-counting-mpi/build/Linux-x86_64/CMakeFiles/CMakeTmp“ wird verlassen
+gmake[1]: Verzeichnis „/vol/home-vol1/maks/brandtfa/Documents/repos/triangle-counting-mpi/build/Linux-x86_64/CMakeFiles/CMakeTmp“ wird verlassen
+
 
 

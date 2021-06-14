@@ -1,4 +1,4 @@
-# Install script for directory: /home/karypisg/tomxx030/distr_tc_cp/graphchallenge/distr_triangle_biggraphs/2DTriangleCounting
+# Install script for directory: /vol/home-vol1/maks/brandtfa/Documents/repos/triangle-counting-mpi
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,15 +44,15 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/mpitc"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/karypisg/tomxx030/distr_tc_cp/graphchallenge/distr_triangle_biggraphs/2DTriangleCounting/build/Linux-x86_64/mpitc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/vol/home-vol1/maks/brandtfa/Documents/repos/triangle-counting-mpi/build/Linux-x86_64/mpitc")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/mpitc" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/mpitc")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/mpitc"
-         OLD_RPATH "/home/karypisg/tomxx030/local/lib:"
+         OLD_RPATH "/vol/home-vol1/maks/brandtfa/local/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
-      execute_process(COMMAND "/panfs/roc/msisoft/binutils/2.32_gcc8.2.0/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/mpitc")
+      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/mpitc")
     endif()
   endif()
 endif()
@@ -65,5 +65,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/karypisg/tomxx030/distr_tc_cp/graphchallenge/distr_triangle_biggraphs/2DTriangleCounting/build/Linux-x86_64/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/vol/home-vol1/maks/brandtfa/Documents/repos/triangle-counting-mpi/build/Linux-x86_64/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

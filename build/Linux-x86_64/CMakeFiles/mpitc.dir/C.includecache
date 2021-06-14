@@ -6,14 +6,6 @@
 
 #IncludeRegexTransform: 
 
-../.././defs.h
-
-../.././proto.h
-mpi.h
--
-
-../.././struct.h
-
 ../../GKlib/GKlib.h
 gk_arch.h
 ../../GKlib/gk_arch.h
@@ -154,9 +146,17 @@ limits.h
 wchar.h
 -
 
-/home/karypisg/tomxx030/distr_tc_cp/graphchallenge/distr_triangle_biggraphs/2DTriangleCounting/GKlib/GKlib.h
+../../defs.h
+
+../../proto.h
+mpi.h
+-
+
+../../struct.h
+
+/vol/home-vol1/maks/brandtfa/Documents/repos/triangle-counting-mpi/GKlib/GKlib.h
 gk_arch.h
-/home/karypisg/tomxx030/distr_tc_cp/graphchallenge/distr_triangle_biggraphs/2DTriangleCounting/GKlib/gk_arch.h
+/vol/home-vol1/maks/brandtfa/Documents/repos/triangle-counting-mpi/GKlib/gk_arch.h
 stddef.h
 -
 stdlib.h
@@ -194,7 +194,7 @@ sys/stat.h
 pcreposix.h
 -
 gkregex.h
-/home/karypisg/tomxx030/distr_tc_cp/graphchallenge/distr_triangle_biggraphs/2DTriangleCounting/GKlib/gkregex.h
+/vol/home-vol1/maks/brandtfa/Documents/repos/triangle-counting-mpi/GKlib/gkregex.h
 regex.h
 -
 omp.h
@@ -228,51 +228,51 @@ gk_mkutils.h
 gk_proto.h
 -
 
-/home/karypisg/tomxx030/distr_tc_cp/graphchallenge/distr_triangle_biggraphs/2DTriangleCounting/GKlib/b64.c
+/vol/home-vol1/maks/brandtfa/Documents/repos/triangle-counting-mpi/GKlib/b64.c
 GKlib.h
-/home/karypisg/tomxx030/distr_tc_cp/graphchallenge/distr_triangle_biggraphs/2DTriangleCounting/GKlib/GKlib.h
+/vol/home-vol1/maks/brandtfa/Documents/repos/triangle-counting-mpi/GKlib/GKlib.h
 
-/home/karypisg/tomxx030/distr_tc_cp/graphchallenge/distr_triangle_biggraphs/2DTriangleCounting/GKlib/blas.c
-GKlib.h
--
-
-/home/karypisg/tomxx030/distr_tc_cp/graphchallenge/distr_triangle_biggraphs/2DTriangleCounting/GKlib/cache.c
+/vol/home-vol1/maks/brandtfa/Documents/repos/triangle-counting-mpi/GKlib/blas.c
 GKlib.h
 -
 
-/home/karypisg/tomxx030/distr_tc_cp/graphchallenge/distr_triangle_biggraphs/2DTriangleCounting/GKlib/csr.c
+/vol/home-vol1/maks/brandtfa/Documents/repos/triangle-counting-mpi/GKlib/cache.c
 GKlib.h
 -
 
-/home/karypisg/tomxx030/distr_tc_cp/graphchallenge/distr_triangle_biggraphs/2DTriangleCounting/GKlib/error.c
+/vol/home-vol1/maks/brandtfa/Documents/repos/triangle-counting-mpi/GKlib/csr.c
 GKlib.h
 -
 
-/home/karypisg/tomxx030/distr_tc_cp/graphchallenge/distr_triangle_biggraphs/2DTriangleCounting/GKlib/evaluate.c
+/vol/home-vol1/maks/brandtfa/Documents/repos/triangle-counting-mpi/GKlib/error.c
 GKlib.h
 -
 
-/home/karypisg/tomxx030/distr_tc_cp/graphchallenge/distr_triangle_biggraphs/2DTriangleCounting/GKlib/fkvkselect.c
+/vol/home-vol1/maks/brandtfa/Documents/repos/triangle-counting-mpi/GKlib/evaluate.c
 GKlib.h
 -
 
-/home/karypisg/tomxx030/distr_tc_cp/graphchallenge/distr_triangle_biggraphs/2DTriangleCounting/GKlib/fs.c
+/vol/home-vol1/maks/brandtfa/Documents/repos/triangle-counting-mpi/GKlib/fkvkselect.c
 GKlib.h
 -
 
-/home/karypisg/tomxx030/distr_tc_cp/graphchallenge/distr_triangle_biggraphs/2DTriangleCounting/GKlib/getopt.c
+/vol/home-vol1/maks/brandtfa/Documents/repos/triangle-counting-mpi/GKlib/fs.c
 GKlib.h
 -
 
-/home/karypisg/tomxx030/distr_tc_cp/graphchallenge/distr_triangle_biggraphs/2DTriangleCounting/GKlib/gk_arch.h
+/vol/home-vol1/maks/brandtfa/Documents/repos/triangle-counting-mpi/GKlib/getopt.c
+GKlib.h
+-
+
+/vol/home-vol1/maks/brandtfa/Documents/repos/triangle-counting-mpi/GKlib/gk_arch.h
 execinfo.h
 -
 ms_stdint.h
-/home/karypisg/tomxx030/distr_tc_cp/graphchallenge/distr_triangle_biggraphs/2DTriangleCounting/GKlib/ms_stdint.h
+/vol/home-vol1/maks/brandtfa/Documents/repos/triangle-counting-mpi/GKlib/ms_stdint.h
 ms_inttypes.h
-/home/karypisg/tomxx030/distr_tc_cp/graphchallenge/distr_triangle_biggraphs/2DTriangleCounting/GKlib/ms_inttypes.h
+/vol/home-vol1/maks/brandtfa/Documents/repos/triangle-counting-mpi/GKlib/ms_inttypes.h
 ms_stat.h
-/home/karypisg/tomxx030/distr_tc_cp/graphchallenge/distr_triangle_biggraphs/2DTriangleCounting/GKlib/ms_stat.h
+/vol/home-vol1/maks/brandtfa/Documents/repos/triangle-counting-mpi/GKlib/ms_stat.h
 stdint.h
 -
 inttypes.h
@@ -284,17 +284,17 @@ sys/resource.h
 sys/time.h
 -
 
-/home/karypisg/tomxx030/distr_tc_cp/graphchallenge/distr_triangle_biggraphs/2DTriangleCounting/GKlib/gk_util.c
+/vol/home-vol1/maks/brandtfa/Documents/repos/triangle-counting-mpi/GKlib/gk_util.c
 GKlib.h
 -
 
-/home/karypisg/tomxx030/distr_tc_cp/graphchallenge/distr_triangle_biggraphs/2DTriangleCounting/GKlib/gkregex.c
+/vol/home-vol1/maks/brandtfa/Documents/repos/triangle-counting-mpi/GKlib/gkregex.c
 config.h
-/home/karypisg/tomxx030/distr_tc_cp/graphchallenge/distr_triangle_biggraphs/2DTriangleCounting/GKlib/config.h
+/vol/home-vol1/maks/brandtfa/Documents/repos/triangle-counting-mpi/GKlib/config.h
 ../locale/localeinfo.h
-/home/karypisg/tomxx030/distr_tc_cp/graphchallenge/distr_triangle_biggraphs/2DTriangleCounting/locale/localeinfo.h
+/vol/home-vol1/maks/brandtfa/Documents/repos/triangle-counting-mpi/locale/localeinfo.h
 GKlib.h
-/home/karypisg/tomxx030/distr_tc_cp/graphchallenge/distr_triangle_biggraphs/2DTriangleCounting/GKlib/GKlib.h
+/vol/home-vol1/maks/brandtfa/Documents/repos/triangle-counting-mpi/GKlib/GKlib.h
 assert.h
 -
 ctype.h
@@ -340,87 +340,87 @@ locale/weight.h
 shlib-compat.h
 -
 
-/home/karypisg/tomxx030/distr_tc_cp/graphchallenge/distr_triangle_biggraphs/2DTriangleCounting/GKlib/gkregex.h
+/vol/home-vol1/maks/brandtfa/Documents/repos/triangle-counting-mpi/GKlib/gkregex.h
 sys/types.h
 -
 
-/home/karypisg/tomxx030/distr_tc_cp/graphchallenge/distr_triangle_biggraphs/2DTriangleCounting/GKlib/graph.c
+/vol/home-vol1/maks/brandtfa/Documents/repos/triangle-counting-mpi/GKlib/graph.c
 GKlib.h
 -
 
-/home/karypisg/tomxx030/distr_tc_cp/graphchallenge/distr_triangle_biggraphs/2DTriangleCounting/GKlib/htable.c
+/vol/home-vol1/maks/brandtfa/Documents/repos/triangle-counting-mpi/GKlib/htable.c
 GKlib.h
 -
 
-/home/karypisg/tomxx030/distr_tc_cp/graphchallenge/distr_triangle_biggraphs/2DTriangleCounting/GKlib/io.c
+/vol/home-vol1/maks/brandtfa/Documents/repos/triangle-counting-mpi/GKlib/io.c
 stdio.h
 -
 GKlib.h
 -
 
-/home/karypisg/tomxx030/distr_tc_cp/graphchallenge/distr_triangle_biggraphs/2DTriangleCounting/GKlib/itemsets.c
+/vol/home-vol1/maks/brandtfa/Documents/repos/triangle-counting-mpi/GKlib/itemsets.c
 GKlib.h
 -
 
-/home/karypisg/tomxx030/distr_tc_cp/graphchallenge/distr_triangle_biggraphs/2DTriangleCounting/GKlib/mcore.c
+/vol/home-vol1/maks/brandtfa/Documents/repos/triangle-counting-mpi/GKlib/mcore.c
 GKlib.h
 -
 
-/home/karypisg/tomxx030/distr_tc_cp/graphchallenge/distr_triangle_biggraphs/2DTriangleCounting/GKlib/memory.c
+/vol/home-vol1/maks/brandtfa/Documents/repos/triangle-counting-mpi/GKlib/memory.c
 GKlib.h
 -
 
-/home/karypisg/tomxx030/distr_tc_cp/graphchallenge/distr_triangle_biggraphs/2DTriangleCounting/GKlib/ms_inttypes.h
+/vol/home-vol1/maks/brandtfa/Documents/repos/triangle-counting-mpi/GKlib/ms_inttypes.h
 ms_stdint.h
-/home/karypisg/tomxx030/distr_tc_cp/graphchallenge/distr_triangle_biggraphs/2DTriangleCounting/GKlib/ms_stdint.h
+/vol/home-vol1/maks/brandtfa/Documents/repos/triangle-counting-mpi/GKlib/ms_stdint.h
 
-/home/karypisg/tomxx030/distr_tc_cp/graphchallenge/distr_triangle_biggraphs/2DTriangleCounting/GKlib/ms_stat.h
+/vol/home-vol1/maks/brandtfa/Documents/repos/triangle-counting-mpi/GKlib/ms_stat.h
 sys/stat.h
 -
 
-/home/karypisg/tomxx030/distr_tc_cp/graphchallenge/distr_triangle_biggraphs/2DTriangleCounting/GKlib/ms_stdint.h
+/vol/home-vol1/maks/brandtfa/Documents/repos/triangle-counting-mpi/GKlib/ms_stdint.h
 limits.h
 -
 wchar.h
 -
 
-/home/karypisg/tomxx030/distr_tc_cp/graphchallenge/distr_triangle_biggraphs/2DTriangleCounting/GKlib/pqueue.c
+/vol/home-vol1/maks/brandtfa/Documents/repos/triangle-counting-mpi/GKlib/pqueue.c
 GKlib.h
 -
 
-/home/karypisg/tomxx030/distr_tc_cp/graphchallenge/distr_triangle_biggraphs/2DTriangleCounting/GKlib/random.c
+/vol/home-vol1/maks/brandtfa/Documents/repos/triangle-counting-mpi/GKlib/random.c
 GKlib.h
 -
 
-/home/karypisg/tomxx030/distr_tc_cp/graphchallenge/distr_triangle_biggraphs/2DTriangleCounting/GKlib/rw.c
+/vol/home-vol1/maks/brandtfa/Documents/repos/triangle-counting-mpi/GKlib/rw.c
 GKlib.h
 -
 
-/home/karypisg/tomxx030/distr_tc_cp/graphchallenge/distr_triangle_biggraphs/2DTriangleCounting/GKlib/seq.c
+/vol/home-vol1/maks/brandtfa/Documents/repos/triangle-counting-mpi/GKlib/seq.c
 GKlib.h
 -
 
-/home/karypisg/tomxx030/distr_tc_cp/graphchallenge/distr_triangle_biggraphs/2DTriangleCounting/GKlib/sort.c
+/vol/home-vol1/maks/brandtfa/Documents/repos/triangle-counting-mpi/GKlib/sort.c
 GKlib.h
 -
 
-/home/karypisg/tomxx030/distr_tc_cp/graphchallenge/distr_triangle_biggraphs/2DTriangleCounting/GKlib/string.c
+/vol/home-vol1/maks/brandtfa/Documents/repos/triangle-counting-mpi/GKlib/string.c
 GKlib.h
 -
 
-/home/karypisg/tomxx030/distr_tc_cp/graphchallenge/distr_triangle_biggraphs/2DTriangleCounting/GKlib/timers.c
+/vol/home-vol1/maks/brandtfa/Documents/repos/triangle-counting-mpi/GKlib/timers.c
 GKlib.h
 -
 
-/home/karypisg/tomxx030/distr_tc_cp/graphchallenge/distr_triangle_biggraphs/2DTriangleCounting/GKlib/tokenizer.c
+/vol/home-vol1/maks/brandtfa/Documents/repos/triangle-counting-mpi/GKlib/tokenizer.c
 GKlib.h
 -
 
-/home/karypisg/tomxx030/distr_tc_cp/graphchallenge/distr_triangle_biggraphs/2DTriangleCounting/cmdline.c
+/vol/home-vol1/maks/brandtfa/Documents/repos/triangle-counting-mpi/cmdline.c
 tc.h
-/home/karypisg/tomxx030/distr_tc_cp/graphchallenge/distr_triangle_biggraphs/2DTriangleCounting/tc.h
+/vol/home-vol1/maks/brandtfa/Documents/repos/triangle-counting-mpi/tc.h
 
-/home/karypisg/tomxx030/distr_tc_cp/graphchallenge/distr_triangle_biggraphs/2DTriangleCounting/graph_generator.c
+/vol/home-vol1/maks/brandtfa/Documents/repos/triangle-counting-mpi/graph_generator.c
 stdlib.h
 -
 stdint.h
@@ -430,11 +430,11 @@ assert.h
 inttypes.h
 -
 user_settings.h
-/home/karypisg/tomxx030/distr_tc_cp/graphchallenge/distr_triangle_biggraphs/2DTriangleCounting/user_settings.h
+/vol/home-vol1/maks/brandtfa/Documents/repos/triangle-counting-mpi/user_settings.h
 splittable_mrg.h
-/home/karypisg/tomxx030/distr_tc_cp/graphchallenge/distr_triangle_biggraphs/2DTriangleCounting/splittable_mrg.h
+/vol/home-vol1/maks/brandtfa/Documents/repos/triangle-counting-mpi/splittable_mrg.h
 graph_generator.h
-/home/karypisg/tomxx030/distr_tc_cp/graphchallenge/distr_triangle_biggraphs/2DTriangleCounting/graph_generator.h
+/vol/home-vol1/maks/brandtfa/Documents/repos/triangle-counting-mpi/graph_generator.h
 ParallelLoop.hpp
 -
 Delegate.hpp
@@ -442,9 +442,9 @@ Delegate.hpp
 sstream
 -
 
-/home/karypisg/tomxx030/distr_tc_cp/graphchallenge/distr_triangle_biggraphs/2DTriangleCounting/graph_generator.h
+/vol/home-vol1/maks/brandtfa/Documents/repos/triangle-counting-mpi/graph_generator.h
 user_settings.h
-/home/karypisg/tomxx030/distr_tc_cp/graphchallenge/distr_triangle_biggraphs/2DTriangleCounting/user_settings.h
+/vol/home-vol1/maks/brandtfa/Documents/repos/triangle-counting-mpi/user_settings.h
 stdlib.h
 -
 stdint.h
@@ -456,9 +456,9 @@ inttypes.h
 Grappa.hpp
 -
 
-/home/karypisg/tomxx030/distr_tc_cp/graphchallenge/distr_triangle_biggraphs/2DTriangleCounting/io.c
+/vol/home-vol1/maks/brandtfa/Documents/repos/triangle-counting-mpi/io.c
 tc.h
-/home/karypisg/tomxx030/distr_tc_cp/graphchallenge/distr_triangle_biggraphs/2DTriangleCounting/tc.h
+/vol/home-vol1/maks/brandtfa/Documents/repos/triangle-counting-mpi/tc.h
 math.h
 -
 stdlib.h
@@ -476,15 +476,15 @@ sys/types.h
 mpi.h
 -
 make_graph.h
-/home/karypisg/tomxx030/distr_tc_cp/graphchallenge/distr_triangle_biggraphs/2DTriangleCounting/make_graph.h
+/vol/home-vol1/maks/brandtfa/Documents/repos/triangle-counting-mpi/make_graph.h
 splittable_mrg.h
-/home/karypisg/tomxx030/distr_tc_cp/graphchallenge/distr_triangle_biggraphs/2DTriangleCounting/splittable_mrg.h
+/vol/home-vol1/maks/brandtfa/Documents/repos/triangle-counting-mpi/splittable_mrg.h
 
-/home/karypisg/tomxx030/distr_tc_cp/graphchallenge/distr_triangle_biggraphs/2DTriangleCounting/main.c
+/vol/home-vol1/maks/brandtfa/Documents/repos/triangle-counting-mpi/main.c
 tc.h
-/home/karypisg/tomxx030/distr_tc_cp/graphchallenge/distr_triangle_biggraphs/2DTriangleCounting/tc.h
+/vol/home-vol1/maks/brandtfa/Documents/repos/triangle-counting-mpi/tc.h
 
-/home/karypisg/tomxx030/distr_tc_cp/graphchallenge/distr_triangle_biggraphs/2DTriangleCounting/make_graph.c
+/vol/home-vol1/maks/brandtfa/Documents/repos/triangle-counting-mpi/make_graph.c
 stdlib.h
 -
 stdint.h
@@ -504,9 +504,9 @@ mpi.h
 omp.h
 -
 graph_generator.h
-/home/karypisg/tomxx030/distr_tc_cp/graphchallenge/distr_triangle_biggraphs/2DTriangleCounting/graph_generator.h
+/vol/home-vol1/maks/brandtfa/Documents/repos/triangle-counting-mpi/graph_generator.h
 utils.h
-/home/karypisg/tomxx030/distr_tc_cp/graphchallenge/distr_triangle_biggraphs/2DTriangleCounting/utils.h
+/vol/home-vol1/maks/brandtfa/Documents/repos/triangle-counting-mpi/utils.h
 gflags/gflags.h
 -
 GlobalAllocator.hpp
@@ -522,35 +522,35 @@ FileIO.hpp
 mpi.h
 -
 
-/home/karypisg/tomxx030/distr_tc_cp/graphchallenge/distr_triangle_biggraphs/2DTriangleCounting/make_graph.h
+/vol/home-vol1/maks/brandtfa/Documents/repos/triangle-counting-mpi/make_graph.h
 stdint.h
 -
 graph_generator.h
-/home/karypisg/tomxx030/distr_tc_cp/graphchallenge/distr_triangle_biggraphs/2DTriangleCounting/graph_generator.h
+/vol/home-vol1/maks/brandtfa/Documents/repos/triangle-counting-mpi/graph_generator.h
 
-/home/karypisg/tomxx030/distr_tc_cp/graphchallenge/distr_triangle_biggraphs/2DTriangleCounting/mod_arith.h
+/vol/home-vol1/maks/brandtfa/Documents/repos/triangle-counting-mpi/mod_arith.h
 user_settings.h
-/home/karypisg/tomxx030/distr_tc_cp/graphchallenge/distr_triangle_biggraphs/2DTriangleCounting/user_settings.h
+/vol/home-vol1/maks/brandtfa/Documents/repos/triangle-counting-mpi/user_settings.h
 mod_arith_xmt.h
-/home/karypisg/tomxx030/distr_tc_cp/graphchallenge/distr_triangle_biggraphs/2DTriangleCounting/mod_arith_xmt.h
+/vol/home-vol1/maks/brandtfa/Documents/repos/triangle-counting-mpi/mod_arith_xmt.h
 mod_arith_64bit.h
-/home/karypisg/tomxx030/distr_tc_cp/graphchallenge/distr_triangle_biggraphs/2DTriangleCounting/mod_arith_64bit.h
+/vol/home-vol1/maks/brandtfa/Documents/repos/triangle-counting-mpi/mod_arith_64bit.h
 mod_arith_32bit.h
-/home/karypisg/tomxx030/distr_tc_cp/graphchallenge/distr_triangle_biggraphs/2DTriangleCounting/mod_arith_32bit.h
+/vol/home-vol1/maks/brandtfa/Documents/repos/triangle-counting-mpi/mod_arith_32bit.h
 
-/home/karypisg/tomxx030/distr_tc_cp/graphchallenge/distr_triangle_biggraphs/2DTriangleCounting/mod_arith_32bit.h
+/vol/home-vol1/maks/brandtfa/Documents/repos/triangle-counting-mpi/mod_arith_32bit.h
 stdint.h
 -
 assert.h
 -
 
-/home/karypisg/tomxx030/distr_tc_cp/graphchallenge/distr_triangle_biggraphs/2DTriangleCounting/mod_arith_64bit.h
+/vol/home-vol1/maks/brandtfa/Documents/repos/triangle-counting-mpi/mod_arith_64bit.h
 stdint.h
 -
 assert.h
 -
 
-/home/karypisg/tomxx030/distr_tc_cp/graphchallenge/distr_triangle_biggraphs/2DTriangleCounting/mod_arith_xmt.h
+/vol/home-vol1/maks/brandtfa/Documents/repos/triangle-counting-mpi/mod_arith_xmt.h
 stdint.h
 -
 assert.h
@@ -558,9 +558,9 @@ assert.h
 machine/mtaops.h
 -
 
-/home/karypisg/tomxx030/distr_tc_cp/graphchallenge/distr_triangle_biggraphs/2DTriangleCounting/mpi_tc.c
+/vol/home-vol1/maks/brandtfa/Documents/repos/triangle-counting-mpi/mpi_tc.c
 tc.h
-/home/karypisg/tomxx030/distr_tc_cp/graphchallenge/distr_triangle_biggraphs/2DTriangleCounting/tc.h
+/vol/home-vol1/maks/brandtfa/Documents/repos/triangle-counting-mpi/tc.h
 mpi.h
 -
 stdlib.h
@@ -574,11 +574,11 @@ mach/mach.h
 mach/mach_time.h
 -
 
-/home/karypisg/tomxx030/distr_tc_cp/graphchallenge/distr_triangle_biggraphs/2DTriangleCounting/mrg_transitions.c
+/vol/home-vol1/maks/brandtfa/Documents/repos/triangle-counting-mpi/mrg_transitions.c
 splittable_mrg.h
-/home/karypisg/tomxx030/distr_tc_cp/graphchallenge/distr_triangle_biggraphs/2DTriangleCounting/splittable_mrg.h
+/vol/home-vol1/maks/brandtfa/Documents/repos/triangle-counting-mpi/splittable_mrg.h
 
-/home/karypisg/tomxx030/distr_tc_cp/graphchallenge/distr_triangle_biggraphs/2DTriangleCounting/splittable_mrg.c
+/vol/home-vol1/maks/brandtfa/Documents/repos/triangle-counting-mpi/splittable_mrg.c
 stdint.h
 -
 stdlib.h
@@ -588,15 +588,15 @@ stdio.h
 inttypes.h
 -
 mod_arith.h
-/home/karypisg/tomxx030/distr_tc_cp/graphchallenge/distr_triangle_biggraphs/2DTriangleCounting/mod_arith.h
+/vol/home-vol1/maks/brandtfa/Documents/repos/triangle-counting-mpi/mod_arith.h
 splittable_mrg.h
-/home/karypisg/tomxx030/distr_tc_cp/graphchallenge/distr_triangle_biggraphs/2DTriangleCounting/splittable_mrg.h
+/vol/home-vol1/maks/brandtfa/Documents/repos/triangle-counting-mpi/splittable_mrg.h
 
-/home/karypisg/tomxx030/distr_tc_cp/graphchallenge/distr_triangle_biggraphs/2DTriangleCounting/splittable_mrg.h
+/vol/home-vol1/maks/brandtfa/Documents/repos/triangle-counting-mpi/splittable_mrg.h
 stdint.h
 -
 
-/home/karypisg/tomxx030/distr_tc_cp/graphchallenge/distr_triangle_biggraphs/2DTriangleCounting/tc.h
+/vol/home-vol1/maks/brandtfa/Documents/repos/triangle-counting-mpi/tc.h
 GKlib.h
 -
 struct.h
@@ -606,13 +606,13 @@ defs.h
 proto.h
 -
 
-/home/karypisg/tomxx030/distr_tc_cp/graphchallenge/distr_triangle_biggraphs/2DTriangleCounting/user_settings.h
+/vol/home-vol1/maks/brandtfa/Documents/repos/triangle-counting-mpi/user_settings.h
 
-/home/karypisg/tomxx030/distr_tc_cp/graphchallenge/distr_triangle_biggraphs/2DTriangleCounting/utils.c
+/vol/home-vol1/maks/brandtfa/Documents/repos/triangle-counting-mpi/utils.c
 splittable_mrg.h
-/home/karypisg/tomxx030/distr_tc_cp/graphchallenge/distr_triangle_biggraphs/2DTriangleCounting/splittable_mrg.h
+/vol/home-vol1/maks/brandtfa/Documents/repos/triangle-counting-mpi/splittable_mrg.h
 graph_generator.h
-/home/karypisg/tomxx030/distr_tc_cp/graphchallenge/distr_triangle_biggraphs/2DTriangleCounting/graph_generator.h
+/vol/home-vol1/maks/brandtfa/Documents/repos/triangle-counting-mpi/graph_generator.h
 stdint.h
 -
 assert.h
@@ -630,13 +630,13 @@ mpi.h
 omp.h
 -
 utils.h
-/home/karypisg/tomxx030/distr_tc_cp/graphchallenge/distr_triangle_biggraphs/2DTriangleCounting/utils.h
+/vol/home-vol1/maks/brandtfa/Documents/repos/triangle-counting-mpi/utils.h
 
-/home/karypisg/tomxx030/distr_tc_cp/graphchallenge/distr_triangle_biggraphs/2DTriangleCounting/utils.h
+/vol/home-vol1/maks/brandtfa/Documents/repos/triangle-counting-mpi/utils.h
 stddef.h
 -
 stdint.h
 -
 splittable_mrg.h
-/home/karypisg/tomxx030/distr_tc_cp/graphchallenge/distr_triangle_biggraphs/2DTriangleCounting/splittable_mrg.h
+/vol/home-vol1/maks/brandtfa/Documents/repos/triangle-counting-mpi/splittable_mrg.h
 
