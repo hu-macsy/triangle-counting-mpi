@@ -32,7 +32,7 @@ mpirun -np 4 ./build/Linux-x86_64/mpitc  -iftype=rmat -scale=15
 
 The number of ranks (`-np`) must be a square number (4,9, 16, etc.), while the smallest supported number is four. Without defining additional parameters, `mpirun` launches the binary on localhost (four times in the example). Depnding on the number of cores in your notebook/workstation it can make sense to increase the number of ranks. In general, a high number of ranks on one node result in a performance degredation. 
 
-## Running spark with slurm (multi process)
+## Running MPI with slurm (multi process)
 
 Besides the possibilty to setup a personal MPI-infrastructure, a slurm wrapper is available (scheduling system). This repo provides a complete and portable script, ready-to-use with the slurm infrastructure at the HU department of Computer Science. For more background information on how slurm works, there is german [doc site](https://www.informatik.hu-berlin.de/de/org/rechnerbetriebsgruppe/dienste/hpc/slurm) available. If you want to use it on other slurm-based infrastructures, minor edits have to be done.
 
