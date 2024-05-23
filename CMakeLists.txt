@@ -10,6 +10,9 @@ else()
   set(ORION_INSTALL TRUE)
 endif()
 
+# Find MPI
+find_package(MPI REQUIRED)
+
 # Add GKlib's cmake settings
 include(${GKLIB_PATH}/GKlibSystem.cmake)
 
@@ -28,7 +31,7 @@ link_directories(~/local/lib)
 add_executable(mpitc ${GKlib_sources} ${mpitc_sources})
 
 foreach(prog mpitc)
-  target_link_libraries(${prog} m)
+  target_link_libraries(${prog} m MPI::MPI_C)
 endforeach(prog)
 
 # Install
